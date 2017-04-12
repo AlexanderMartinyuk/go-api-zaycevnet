@@ -1,12 +1,12 @@
-# go-zaycevnet
-Golang bindings for the Zaycev.net API
+# go-api-zaycevnet
+Golang api wrapper for pleer.net zaycev.net
 
 [![Build Status](https://travis-ci.org/pixfid/go-zaycevnet.svg?branch=master)](https://travis-ci.org/pixfid/go-zaycevnet)
 [![Go Report Card](https://goreportcard.com/badge/github.com/pixfid/go-zaycevnet)](https://goreportcard.com/report/github.com/pixfid/go-zaycevnet)
 
 # Install: <br/>
 
-go get github.com/pixfid/go-zaycevnet <br/>
+go get github.com/AlexanderMartinyuk/go-api-zaycevnet <br/>
 
 # Usage:<br/>
 
@@ -14,7 +14,7 @@ go get github.com/pixfid/go-zaycevnet <br/>
 package main
 
 import (
-	"github.com/pixfid/go-zaycevnet/api"
+	"github.com/AlexanderMartinyuk/go-api-zaycevnet"
 	"net/url"
 	"strconv"
 )
